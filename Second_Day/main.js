@@ -159,7 +159,7 @@ circleArray = [];
 
 function init() {
   circleArray = [];
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 5; i++) {
     let color = randomcolor();
     let radius = Math.random() * 3 + 1;
     let x = Math.random() * (innerWidth - radius * 2) + radius;
